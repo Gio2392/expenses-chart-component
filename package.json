@@ -6,7 +6,7 @@
   "homepage": "http://Gio2392.github.io/expenses-chart-component",
   "scripts": {
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
