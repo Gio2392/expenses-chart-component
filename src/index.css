@@ -1,0 +1,93 @@
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{   
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.text{
+    font-size: var(--size-s);
+    letter-spacing: -0.025em;
+    color: var(--Mediumbrown);
+}
+.bold{
+    font-weight: 700;
+    color: var(--Darkbrown);
+}
+.white{
+    color: #FFFFFF;
+}
+.title{
+    color: var(--Cream);
+}
+.mb{
+    margin-bottom: 5rem;
+}
+@media (min-width: 500px) {
+    .mb{
+        margin-bottom: 7rem;
+    }
+}
+.orange{
+    background-color: var(--Softred);
+    color: var(--Verypaleorange);
+    padding: 2.5rem 2rem;
+}
+.paleOrange{
+    background-color: var(--Verypaleorange);
+    color: var(--Darkbrown);
+    padding: 3rem 2rem;
+}
+
+@media (min-width: 500px) {
+    .paleOrange{
+        padding: 4rem 4rem 5rem;
+    }
+}
+
+.graphic{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+@media (min-width: 500px) {
+    .graphic{
+        gap: 1.8rem;
+    }
+}
+.bar{    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.name{
+    color: var(--Darkbrown);
+    text-align: center;
+}
+.percent-bar{
+    cursor: pointer;
+    border-radius: .5rem;
+   
+}
+
+hr{
+    margin: 2.7rem 0;
+    border: 1px solid var(--Cream);
+}
+.total{
+    font-size: var(--size-l);
+    margin-top: 1rem;
+}
+.percent{
+    align-self: flex-end;
+    text-align: right;
+}
