@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://gio2392.github.io/expenses-chart-component/",
   "scripts": {
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist",
