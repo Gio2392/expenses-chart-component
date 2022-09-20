@@ -1,3 +1,4 @@
+import logoApp from '../images/logo.svg';
 
 export const Balance = () => {
   return (
@@ -7,7 +8,7 @@ export const Balance = () => {
             <h2 className="white">$921.48</h2>
         </div>
         <div className="logo">
-            <img src="./src/assets/logo.svg" alt="logo" />
+            <img src={logoApp} alt="logo" />
         </div>
     </div>
   )

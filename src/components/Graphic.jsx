@@ -1,9 +1,10 @@
+import dataJson from '../data/data.json';
 import { useChart } from "../hooks/useChart";
 import { Bar } from "./Bar";
 
 export const Graphic = () => {
 
-   const { chartValues, maxValue} = useChart('./src/data/data.json');   
+   const { chartValues, maxValue} = useChart(dataJson);   
 
   return (
     <div className="graphic">
